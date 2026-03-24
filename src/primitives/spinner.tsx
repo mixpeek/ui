@@ -1,0 +1,18 @@
+import * as React from 'react';
+import { Loader2 } from 'lucide-react';
+
+import { cn } from '../lib/cn';
+
+function Spinner({ className, ...props }: React.ComponentProps<'svg'>) {
+  return (
+    <Loader2
+      role="status"
+      aria-label="Loading"
+      className={cn('mxp-size-4 mxp-animate-spin', className)}
+      {...props}
+    />
+  );
+}
+Spinner.displayName = 'Spinner';
+
+export { Spinner };

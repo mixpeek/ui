@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * @mixpeek/ui CSS variables.
+ * Consumers can override these at :root or a scoping class.
+ * All use the mxp- prefix to avoid collisions.
+ */
+:root {
+  --mxp-background: 0 0% 100%;
+  --mxp-foreground: 222.2 84% 4.9%;
+  --mxp-card: 0 0% 100%;
+  --mxp-card-foreground: 222.2 84% 4.9%;
+  --mxp-popover: 0 0% 100%;
+  --mxp-popover-foreground: 222.2 84% 4.9%;
+  --mxp-primary: 222.2 47.4% 11.2%;
+  --mxp-primary-foreground: 210 40% 98%;
+  --mxp-secondary: 210 40% 96.1%;
+  --mxp-secondary-foreground: 222.2 47.4% 11.2%;
+  --mxp-muted: 210 40% 96.1%;
+  --mxp-muted-foreground: 215.4 16.3% 46.9%;
+  --mxp-accent: 210 40% 96.1%;
+  --mxp-accent-foreground: 222.2 47.4% 11.2%;
+  --mxp-destructive: 0 84.2% 60.2%;
+  --mxp-destructive-foreground: 210 40% 98%;
+  --mxp-border: 214.3 31.8% 91.4%;
+  --mxp-input: 214.3 31.8% 91.4%;
+  --mxp-ring: 222.2 84% 4.9%;
+  --mxp-radius: 0.5rem;
+}
+
+.dark {
+  --mxp-background: 222.2 84% 4.9%;
+  --mxp-foreground: 210 40% 98%;
+  --mxp-card: 222.2 84% 4.9%;
+  --mxp-card-foreground: 210 40% 98%;
+  --mxp-popover: 222.2 84% 4.9%;
+  --mxp-popover-foreground: 210 40% 98%;
+  --mxp-primary: 210 40% 98%;
+  --mxp-primary-foreground: 222.2 47.4% 11.2%;
+  --mxp-secondary: 217.2 32.6% 17.5%;
+  --mxp-secondary-foreground: 210 40% 98%;
+  --mxp-muted: 217.2 32.6% 17.5%;
+  --mxp-muted-foreground: 215 20.2% 65.1%;
+  --mxp-accent: 217.2 32.6% 17.5%;
+  --mxp-accent-foreground: 210 40% 98%;
+  --mxp-destructive: 0 62.8% 30.6%;
+  --mxp-destructive-foreground: 210 40% 98%;
+  --mxp-border: 217.2 32.6% 17.5%;
+  --mxp-input: 217.2 32.6% 17.5%;
+  --mxp-ring: 212.7 26.8% 83.9%;
+}
